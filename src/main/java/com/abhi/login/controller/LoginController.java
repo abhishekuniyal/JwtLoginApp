@@ -39,6 +39,9 @@ public class LoginController {
 		catch (BadCredentialsException e) {
 			throw new Exception("Bad creds");
 		}
+		catch(Exception e ) {
+			throw new Exception("Bad creds");
+		}
 		
 		UserDetails userDetails= myUserDetailsService.loadUserByUsername(authRequest.getUserName());
 		

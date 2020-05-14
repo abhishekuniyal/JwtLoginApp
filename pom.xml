@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.abhi</groupId>
-	<artifactId>login-security-jwt</artifactId>
+	<artifactId>login-security-jwt1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>login-security-jwt</name>
 	<description>Spring  project for secure Jwt Login</description>
