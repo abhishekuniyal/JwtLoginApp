@@ -5,6 +5,7 @@ public class CustomerDTO {
 	private int custId;
 	private String custName;
 
+	public CustomerDTO() {}
 	public CustomerDTO(int custId, String custName) {
 		super();
 		this.custId = custId;
